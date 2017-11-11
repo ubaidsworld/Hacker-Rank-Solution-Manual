@@ -61,7 +61,7 @@ int main(){
         cin >> st;
         auto res = dfs(mat,V,st);
         
-        for(j=0;j<V+1;j++){
+        for(j=1;j<V+1;j++){
             if(j != st)
                 std::cout<<res[j]<<" ";
         }
